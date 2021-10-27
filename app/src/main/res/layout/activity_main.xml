@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a location"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save" />
+
+
+    <EditText
+        android:id="@+id/etNameGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get Location" />
+
+
+    <TextView
+        android:id="@+id/tvGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="The location is"
+        android:textSize="24sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/teal_700"/>
+
+    <EditText
+        android:id="@+id/etUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/etUpdateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a location"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Update" />
+
+
+    <EditText
+        android:id="@+id/etDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Delete" />
+
+
+</LinearLayout>
